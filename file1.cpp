@@ -9,5 +9,9 @@ int main()
     int perulanganWhile = 0;
     int perulanganDo = 0;
 
-    
+    // Perulangan dengan for 
+
+    cout << "Perulangan for pecacah naik" << endl;
+    for (n = 0; n < 5; n++)
+
 }
