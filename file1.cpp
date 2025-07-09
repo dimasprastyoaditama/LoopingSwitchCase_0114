@@ -16,5 +16,9 @@ int main()
 {
     cout << "Nilai n = " << n << " Selamat Datang " << endl;
 }
+cout << "Nilai n terakhir = " << n << endl;
+cout << endl;
+
+cout << "Perulangan for pencacah turun" << endl;
 
 }
