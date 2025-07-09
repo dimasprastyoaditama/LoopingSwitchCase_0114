@@ -23,5 +23,24 @@ int main(){
         cout << "Pilihan (1/2/3) = ";
         cin >> pilihan;
 
-        
-}
+        switch (pilihan)
+        {
+            case 1:
+            cout << "Hitung luas persegi panjang" << endl;
+            cout << "Masukkan panjang = ";
+            cin >> panjang;
+            cout << "masukkan lebar = ";
+            cin >> lebar;
+            cout << "Luas persegi panjang = " << luasPersegiPanjang(panjang, lebar) << endl;
+            break;
+            case 2:
+            cout << "Hitung luas lingkaran" << endl;
+            cout << "masukkan jari-jari = ";
+            cin >> jejari;
+            cout << "Luas lingkaran = " << luasLingkaran(jejari) << endl;
+            break;
+            case 3:
+            break;
+            default:
+            cout << "Pilihan salah, pilihan harus di antara 1-3.";
+        }
