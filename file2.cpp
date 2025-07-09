@@ -44,3 +44,5 @@ int main(){
             default:
             cout << "Pilihan salah, pilihan harus di antara 1-3.";
         }
+    }while(pilihan != 3);
+}
