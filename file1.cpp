@@ -53,5 +53,10 @@ n = rand() % 10;
 
 cout << "Nilai awal n = " << n << endl;
 
-
+do
+{
+    cout << "Nilai n = " << n << endl;
+    n = rand() % 10;
+perulanganDo++;
+} 
 }
